@@ -24,12 +24,9 @@ function createGrid(num) {
     // Set outer container width equal to container width for layout purposes
     document.querySelector('#outer-container').style.width = `${containerSize}px`;
 
-    // Calculate the size of each square
-    let squareSize = containerSize / num;
-
     // Set grid columns and rows using the square size
-    container.style.gridTemplateColumns = `repeat(${num}, ${squareSize}px)`;
-    container.style.gridTemplateRows = `repeat(${num}, ${squareSize}px)`;
+    container.style.gridTemplateColumns = `repeat(${num}, 1fr)`;
+    container.style.gridTemplateRows = `repeat(${num}, 1fr)`;
 
     // Create the squares and add them to the container
     let numSquares = num * num;
