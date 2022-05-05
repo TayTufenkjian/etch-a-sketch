@@ -1,16 +1,28 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    flex: 0 1 auto;
+    height: 50px;
+    margin-left: auto;
+}
+
 .colored {
     background-color: purple;
 }
 
 #container {
+    border: 1px solid #e5e5e5;
     display: grid;
 }
 
-.square {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+header {
+    align-items: center;
+    display: flex;
 }
 
-main {
+#outer-container {
     margin: 0 auto;
-    width: 50%;
 }
