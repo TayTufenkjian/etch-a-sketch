@@ -18,6 +18,10 @@ button {
     display: grid;
 }
 
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
 header {
     align-items: center;
     display: flex;
