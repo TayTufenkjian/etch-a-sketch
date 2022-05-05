@@ -1,11 +1,9 @@
 .colored {
-    background-color: aquamarine;
+    background-color: purple;
 }
 
 #container {
     display: grid;
-    margin: 0 auto;
-    width: 50%;
 }
 
 .square {
@@ -13,5 +11,6 @@
 }
 
 main {
-    text-align: center;
+    margin: 0 auto;
+    width: 50%;
 }

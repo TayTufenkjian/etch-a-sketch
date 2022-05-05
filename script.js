@@ -16,4 +16,8 @@ function createGrid(num) {
         square.classList.add('square');
         container.appendChild(square);
     }
+
+    // Listen for hover on each square and apply color
+    let squares = document.querySelectorAll('.square');
+    squares.forEach(square => square.addEventListener('mouseover', () => square.classList.add('colored')));
 }
